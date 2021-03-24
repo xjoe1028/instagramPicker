@@ -86,13 +86,7 @@ public class IndexController {
 		}catch(ArrayIndexOutOfBoundsException e) {
 			model.addAttribute("returnData","留言不重複時，留言數小於中獎人數");
 		}		
-//		List<Student> students = new ArrayList<>();
-//        students.add(new Student(1,"小信",33));
-//        students.add(new Student(2,"小田",25));
-//        students.add(new Student(3,"小夏",19));
-//        students.add(new Student(4,"小方",23));
-//
-//        model.addAttribute("student",students);
+
 		return "result";
 	}
 
