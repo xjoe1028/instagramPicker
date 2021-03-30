@@ -21,22 +21,8 @@
   src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
 } */
 
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
-
-* {
-	margin: 0px; 
-	padding: 0px; 
-	box-sizing: border-box;
-}
-
-body, html {
-	height: 100%;
-	font-family: Poppins-Regular, sans-serif;
-}
 
 /*---------------------------------------------*/
 a {
@@ -383,8 +369,6 @@ iframe {
 /* index2.jsp Button 小按鈕*/
 .index2Btn{
   background-color: #2b5876;
-  font-size: 16px;
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -399,6 +383,6 @@ iframe {
 
 .titleFont{
 	font-size: 20px;
-	font-weight: 800; 
-	text-align: center;
+  font-weight: 800; 
+  text-align: center;
 }
